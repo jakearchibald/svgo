@@ -52,10 +52,15 @@
   },
   "main": "./lib/svgo-node.js",
   "bin": "./bin/svgo.js",
-  "types": "./lib/svgo.d.ts",
   "exports": {
-    "require": "./dist/svgo-node.cjs",
-    "default": "./lib/svgo-node.js"
+    ".": {
+      "types": "./lib/svgo.d.ts",
+      "browser": "./dist/svgo.browser.js",
+      "require": "./dist/svgo-node.cjs",
+      "default": "./lib/svgo-node.js"
+    },
+    "./plugins/*": "./plugins/*",
+    "./package.json": "./package.json"
   },
   "files": [
     "bin",
