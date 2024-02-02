@@ -60,6 +60,7 @@
       "default": "./lib/svgo-node.js"
     },
     "./plugins/*": "./plugins/*",
+    "./lib/*": "./lib/*",
     "./package.json": "./package.json"
   },
   "files": [
