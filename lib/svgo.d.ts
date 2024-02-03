@@ -10,6 +10,12 @@ type CustomPlugin<T = any> = {
   params?: T;
 
   /**
+   * If this plugin is a preset, `groupedPlugins` is an array of plugins that
+   * make up the preset, in the order they'll be executed.
+   */
+  groupedPlugins?: CustomPlugin[];
+
+  /**
    * JSON Schema that describes the accepted parameters and their constraints.
    * See to `null` to explicitly declare that the plugin does not accepted
    * parameters.
