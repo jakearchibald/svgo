@@ -5,6 +5,7 @@ import { attrsGroups } from './_collections.js';
  */
 
 export const name = 'convertStyleToAttrs';
+export const title = 'Convert Style to Attributes';
 export const description = 'converts style to attributes';
 
 /** @type {JSONSchema} */

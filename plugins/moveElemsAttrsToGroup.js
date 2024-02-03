@@ -2,6 +2,7 @@ import { visit } from '../lib/xast.js';
 import { inheritableAttrs, pathElems } from './_collections.js';
 
 export const name = 'moveElemsAttrsToGroup';
+export const title = 'Move Elements Attributes to Group';
 export const description =
   'Move common attributes of group children to the group';
 export const schema = null;

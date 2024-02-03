@@ -2,6 +2,7 @@ import * as csstree from 'css-tree';
 import { visit } from '../lib/xast.js';
 
 export const name = 'cleanupEnableBackground';
+export const title = 'Cleanup enable-background';
 export const description =
   'remove or cleanup enable-background attribute when possible';
 export const schema = null;

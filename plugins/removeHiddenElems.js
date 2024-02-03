@@ -19,6 +19,7 @@ import { hasScripts, findReferences } from '../lib/svgo/tools.js';
 const nonRendering = elemsGroups.nonRendering;
 
 export const name = 'removeHiddenElems';
+export const title = 'Remove Hidden Elements';
 export const description =
   'removes hidden elements (zero sized, with absent attributes)';
 

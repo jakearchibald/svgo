@@ -1,6 +1,7 @@
 import { detachNodeFromParent } from '../lib/xast.js';
 
 export const name = 'removeDoctype';
+export const title = 'Remove Doctype';
 export const description = 'removes doctype declaration';
 export const schema = null;
 

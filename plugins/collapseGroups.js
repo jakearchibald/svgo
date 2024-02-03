@@ -6,6 +6,7 @@ import { inheritableAttrs, elemsGroups } from './_collections.js';
  */
 
 export const name = 'collapseGroups';
+export const title = 'Collapse Groups';
 export const description = 'collapses useless groups';
 export const schema = null;
 

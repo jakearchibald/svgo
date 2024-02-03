@@ -9,6 +9,7 @@ import { collectStylesheet } from '../lib/style.js';
  */
 
 export const name = 'removeDeprecatedAttrs';
+export const title = 'Remove Deprecated Attributes';
 export const description = 'removes deprecated attributes';
 
 /** @type {JSONSchema} */

@@ -5,6 +5,7 @@ import { querySelectorAll } from '../lib/xast.js';
  */
 
 export const name = 'removeAttributesBySelector';
+export const title = 'Remove Attributes by Selector';
 export const description =
   'removes attributes of elements that match a css selector';
 

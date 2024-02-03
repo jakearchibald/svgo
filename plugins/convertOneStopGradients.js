@@ -13,6 +13,7 @@ import { computeStyle, collectStylesheet } from '../lib/style.js';
  */
 
 export const name = 'convertOneStopGradients';
+export const title = 'Convert One-Stop Gradients';
 export const description =
   'converts one-stop (single color) gradients to a plain color';
 export const schema = null;

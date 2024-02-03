@@ -6,6 +6,7 @@ import { elems } from './_collections.js';
  */
 
 export const name = 'removeXlink';
+export const title = 'Remove XLink';
 export const description =
   'remove xlink namespace and replaces attributes with the SVG 2 equivalent where applicable';
 

@@ -6,6 +6,7 @@ import { detachNodeFromParent } from '../lib/xast.js';
  */
 
 export const name = 'removeEditorsNSData';
+export const title = 'Remove Editor Namespace Data';
 export const description =
   'removes editors namespaces, elements and attributes';
 

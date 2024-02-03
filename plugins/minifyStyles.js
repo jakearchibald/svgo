@@ -9,6 +9,7 @@ import { hasScripts } from '../lib/svgo/tools.js';
  */
 
 export const name = 'minifyStyles';
+export const title = 'Minify Styles';
 export const description = 'minifies styles and removes unused styles';
 
 /** @type {JSONSchema} */

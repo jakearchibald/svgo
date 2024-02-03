@@ -1,4 +1,5 @@
 export const name = 'sortDefsChildren';
+export const title = 'Sort Defs Children';
 export const description = 'Sorts children of <defs> to improve compression';
 export const schema = null;
 

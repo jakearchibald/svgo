@@ -1,4 +1,5 @@
 export const name = 'convertEllipseToCircle';
+export const title = 'Convert Ellipse to Circle';
 export const description = 'converts non-eccentric <ellipse>s to <circle>s';
 export const schema = null;
 

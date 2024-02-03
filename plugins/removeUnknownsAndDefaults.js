@@ -13,6 +13,7 @@ import { collectStylesheet, computeStyle } from '../lib/style.js';
  */
 
 export const name = 'removeUnknownsAndDefaults';
+export const title = 'Remove Unknowns and Defaults';
 export const description =
   'removes unknown elements content and attributes, removes attrs with default values';
 

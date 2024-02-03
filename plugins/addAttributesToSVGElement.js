@@ -3,6 +3,7 @@
  */
 
 export const name = 'addAttributesToSVGElement';
+export const title = 'Add Attributes to SVG Element';
 export const description = 'adds attributes to an outer <svg> element';
 
 /** @type {JSONSchema} */

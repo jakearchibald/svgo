@@ -1,6 +1,7 @@
 import { detachNodeFromParent } from '../lib/xast.js';
 
 export const name = 'removeTitle';
+export const title = 'Remove <title>';
 export const description = 'removes <title>';
 export const schema = null;
 

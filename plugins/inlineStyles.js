@@ -15,6 +15,7 @@ import { compareSpecificity, includesAttrSelector } from '../lib/style.js';
  */
 
 export const name = 'inlineStyles';
+export const title = 'Inline Styles';
 export const description = 'inline styles (additional options)';
 
 /** @type {JSONSchema} */

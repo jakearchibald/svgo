@@ -3,6 +3,8 @@
  */
 
 export const name = 'addClassesToSVGElement';
+export const title = 'Add Classes to SVG Element';
+
 export const description = 'adds classnames to an outer <svg> element';
 
 /** @type {JSONSchema} */

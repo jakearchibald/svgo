@@ -7,6 +7,7 @@ import { intersects } from './_path.js';
  */
 
 export const name = 'removeOffCanvasPaths';
+export const title = 'Remove Off-canvas Paths';
 export const description =
   'removes elements that are drawn outside of the viewbox (disabled by default)';
 export const schema = null;

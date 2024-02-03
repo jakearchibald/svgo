@@ -1,4 +1,5 @@
 export const name = 'removeAttrs';
+export const title = 'Remove Attributes';
 export const description = 'removes specified attributes';
 
 /** @type {JSONSchema} */

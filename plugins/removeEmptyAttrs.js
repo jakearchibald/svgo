@@ -1,6 +1,7 @@
 import { attrsGroups } from './_collections.js';
 
 export const name = 'removeEmptyAttrs';
+export const title = 'Remove Empty Attributes';
 export const description = 'removes empty attributes';
 export const schema = null;
 

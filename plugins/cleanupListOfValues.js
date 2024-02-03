@@ -5,6 +5,7 @@ import { removeLeadingZero } from '../lib/svgo/tools.js';
  */
 
 export const name = 'cleanupListOfValues';
+export const title = 'Cleanup List of Values';
 export const description = 'rounds list of values to the fixed precision';
 
 /** @type {JSONSchema} */

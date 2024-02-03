@@ -7,6 +7,7 @@ import { hasScripts, findReferences } from '../lib/svgo/tools.js';
  */
 
 export const name = 'cleanupIds';
+export const title = 'Cleanup IDs';
 export const description = 'removes unused IDs and minifies used';
 
 /** @type {JSONSchema} */

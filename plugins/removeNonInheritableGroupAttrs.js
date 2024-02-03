@@ -5,6 +5,7 @@ import {
 } from './_collections.js';
 
 export const name = 'removeNonInheritableGroupAttrs';
+export const title = 'Remove Non-inheritable Group Attributes';
 export const description =
   'removes non-inheritable group’s presentational attributes';
 export const schema = null;

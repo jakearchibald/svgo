@@ -8,6 +8,7 @@ import { elemsGroups } from './_collections.js';
  */
 
 export const name = 'removeUselessStrokeAndFill';
+export const title = 'Remove Useless Stroke and Fill';
 export const description = 'removes useless stroke and fill attributes';
 
 /** @type {JSONSchema} */

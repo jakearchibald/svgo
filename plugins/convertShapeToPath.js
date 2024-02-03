@@ -7,6 +7,7 @@ import { detachNodeFromParent } from '../lib/xast.js';
  */
 
 export const name = 'convertShapeToPath';
+export const title = 'Convert Shape to Path';
 export const description = 'converts basic shapes to more compact path form';
 
 /** @type {JSONSchema} */

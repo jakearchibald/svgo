@@ -6,6 +6,7 @@ import { includesUrlReference } from '../lib/svgo/tools.js';
  */
 
 export const name = 'convertColors';
+export const title = 'Convert Colors';
 export const description =
   'converts colors: rgb() to #rrggbb and #rrggbb to #rgb';
 

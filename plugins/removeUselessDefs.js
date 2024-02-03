@@ -6,6 +6,7 @@ import { elemsGroups } from './_collections.js';
  */
 
 export const name = 'removeUselessDefs';
+export const title = 'Remove Useless Defs';
 export const description = 'removes elements in <defs> without id';
 export const schema = null;
 

@@ -5,6 +5,7 @@ import { detachNodeFromParent } from '../lib/xast.js';
  */
 
 export const name = 'removeElementsByAttr';
+export const title = 'Remove Elements by Attribute';
 export const description =
   'removes arbitrary elements by ID or className (disabled by default)';
 

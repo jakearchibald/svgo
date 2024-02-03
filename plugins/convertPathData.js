@@ -11,6 +11,7 @@ import { cleanupOutData, toFixed } from '../lib/svgo/tools.js';
  */
 
 export const name = 'convertPathData';
+export const title = 'Convert Path Data';
 export const description =
   'optimizes path data: writes in shorter form, applies transformations';
 

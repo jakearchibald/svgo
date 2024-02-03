@@ -13,6 +13,7 @@ import {
  */
 
 export const name = 'convertTransform';
+export const title = 'Convert Transform';
 export const description =
   'collapses multiple transformations and optimizes it';
 

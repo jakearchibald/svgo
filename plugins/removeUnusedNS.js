@@ -1,4 +1,5 @@
 export const name = 'removeUnusedNS';
+export const title = 'Remove Unused Namespaces';
 export const description = 'removes unused namespaces declaration';
 export const schema = null;
 

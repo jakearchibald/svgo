@@ -5,6 +5,7 @@ import { detachNodeFromParent } from '../lib/xast.js';
  */
 
 export const name = 'removeEmptyText';
+export const title = 'Remove Empty <text>';
 export const description = 'removes empty <text> elements';
 
 /** @type {JSONSchema} */

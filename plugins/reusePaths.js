@@ -8,6 +8,7 @@ import { detachNodeFromParent, querySelectorAll } from '../lib/xast.js';
  */
 
 export const name = 'reusePaths';
+export const title = 'Reuse Paths';
 export const description =
   'Finds <path> elements with the same d, fill, and ' +
   'stroke, and converts them to <use> elements ' +

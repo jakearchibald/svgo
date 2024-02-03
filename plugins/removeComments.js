@@ -5,6 +5,7 @@ import { detachNodeFromParent } from '../lib/xast.js';
  */
 
 export const name = 'removeComments';
+export const title = 'Remove Comments';
 export const description = 'removes comments';
 
 /** @type {JSONSchema} */

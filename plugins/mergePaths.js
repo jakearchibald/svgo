@@ -9,6 +9,7 @@ import { path2js, js2path, intersects } from './_path.js';
  */
 
 export const name = 'mergePaths';
+export const title = 'Merge Paths';
 export const description = 'merges multiple paths in one if possible';
 
 /** @type {JSONSchema} */

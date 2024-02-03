@@ -5,6 +5,7 @@ import { removeLeadingZero } from '../lib/svgo/tools.js';
  */
 
 export const name = 'cleanupNumericValues';
+export const title = 'Cleanup Numeric Values';
 export const description =
   'rounds numeric values to the fixed precision, removes default ‘px’ units';
 

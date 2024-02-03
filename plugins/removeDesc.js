@@ -5,6 +5,7 @@ import { detachNodeFromParent } from '../lib/xast.js';
  */
 
 export const name = 'removeDesc';
+export const title = 'Remove <desc>';
 export const description = 'removes <desc>';
 
 /** @type {JSONSchema} */

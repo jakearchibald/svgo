@@ -3,6 +3,7 @@
  */
 
 export const name = 'sortAttrs';
+export const title = 'Sort Attributes';
 export const description = 'Sort element attributes for better compression';
 
 /** @type {JSONSchema} */

@@ -2,6 +2,7 @@ import { pathElems, referencesProps } from './_collections.js';
 import { includesUrlReference } from '../lib/svgo/tools.js';
 
 export const name = 'moveGroupAttrsToElems';
+export const title = 'Move Group Attributes to Elements';
 export const description =
   'moves some group attributes to the content elements';
 export const schema = null;

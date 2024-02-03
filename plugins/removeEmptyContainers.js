@@ -2,6 +2,7 @@ import { elemsGroups } from './_collections.js';
 import { detachNodeFromParent } from '../lib/xast.js';
 
 export const name = 'removeEmptyContainers';
+export const title = 'Remove Empty Containers';
 export const description = 'removes empty container elements';
 export const schema = null;
 

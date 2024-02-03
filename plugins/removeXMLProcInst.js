@@ -1,6 +1,7 @@
 import { detachNodeFromParent } from '../lib/xast.js';
 
 export const name = 'removeXMLProcInst';
+export const title = 'Remove XML Declaration';
 export const description = 'removes XML processing instructions';
 export const schema = null;
 

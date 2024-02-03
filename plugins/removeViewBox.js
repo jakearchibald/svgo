@@ -1,4 +1,5 @@
 export const name = 'removeViewBox';
+export const title = 'Remove viewBox';
 export const description = 'removes viewBox attribute when possible';
 export const schema = null;
 

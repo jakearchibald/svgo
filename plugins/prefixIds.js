@@ -8,6 +8,7 @@ import { referencesProps } from './_collections.js';
  */
 
 export const name = 'prefixIds';
+export const title = 'Prefix IDs';
 export const description = 'prefix IDs';
 
 /** @type {JSONSchema} */
