@@ -15,6 +15,12 @@ type CustomPlugin<T = any> = {
   name: string;
   fn: Plugin<T>;
   params?: T;
+
+  /**
+   * If this plugin is a preset, `groupedPlugins` is an array of plugins that
+   * make up the preset, in the order they'll be executed.
+   */
+  groupedPlugins?: CustomPlugin[];
 };
 
 type PluginConfig =
