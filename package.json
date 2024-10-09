@@ -62,7 +62,10 @@
     "./browser": {
       "import": "./dist/svgo.browser.js",
       "types": "./lib/svgo.d.ts"
-    }
+    },
+    "./plugins/*": "./plugins/*",
+    "./lib/*": "./lib/*",
+    "./package.json": "./package.json"
   },
   "typesVersions": {
     "*": {
